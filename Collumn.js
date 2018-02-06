@@ -24,11 +24,10 @@ function Collumn(_index, _x) {
         //var r = map(this.value, 0, collumnCount, 255, 0);
         //var g = map(this.value, 0, collumnCount, 0, 255);
         //stroke(r, g, 0);
-        //box([width],[Height],[depth],[detailX],[detailY])
-        scale(0.1);
-        model(train);
-        scale(10);
-        //box(this.size, this.size, this.size);
+        //scale(0.1);
+        //model(train);
+        //scale(10);
+        box(this.size, this.size, this.size);
         rotateY(-frameCount * 0.01);
         translate(-this.x, this.y, -this.z);
       }
